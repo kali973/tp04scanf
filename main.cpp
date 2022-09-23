@@ -4,14 +4,21 @@
 int slong(char *s1);
 
 int main() {
-    char str[] = "ceci est un tableau";
+    char str[50];
 
-    printf("Entrez une chaine de caractéres : ");
+    printf("Entrez une chaine de caractéres :\n");
     scanf("%20s", str);
     printf("longueur de %s = %d \n", str, slong(str));
     return 0;
 }
 
-int slong(char *s1) {
-    return strlen(s1);
+int slong(char *str_input)
+{
+    int length = 0;
+    while(*str_input != '\0')
+    {
+        length++;
+        str_input++;
+    }
+    return length;
 }
