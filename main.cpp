@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <cstring>
 
 int slong(char *s1);
 
