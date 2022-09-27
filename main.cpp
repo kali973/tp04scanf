@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int slong(char *s1);
+int slong(char *s1); // Si on utilisait un pointeur il faut faire un free
 
 int main() {
     char str[50];
@@ -8,6 +8,7 @@ int main() {
     printf("Entrez une chaine de caractéres :\n");
     scanf("%20s", str);
     printf("longueur de %s = %d \n", str, slong(str));
+
     return 0;
 }
 
