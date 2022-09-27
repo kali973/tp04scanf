@@ -3,7 +3,7 @@
 int slong(char *s1);
 
 int main() {
-    char str[50]; // Si on utilisait un pointeur il faut faire un free
+    char str[50]; // Si on utilisait un pointeur il faudrait faire un free
 
     printf("Entrez une chaine de caractéres :\n");
     scanf("%20s", str);
