@@ -1,4 +1,6 @@
-4. Scanf
+Gilles COUTARD
+
+Scanf
 
 On désire améliorer le programme précédent de telle sorte que l'utilisateur puisse entrer interactivement la chaîne de caractères dont il faut calculer la longueur.
 
